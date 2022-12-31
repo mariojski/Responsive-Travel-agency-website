@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="website about travel agency that helps you pick out your best vacation"
+    />
+    <meta name="robots" content="index, follow" />
+    <title>Travelly agency</title>
+    <!-- TITLE ICON -->
+    <link rel="icon" href="/icons/airplane.svg" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main Header -->
+    <header class="main-header">
+      <nav>
+        <h1 id="logo"><a href="#">Travelly</a></h1>
+        <ul>
+          <li><a href="#locations">Locations</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero section -->
+    <section class="hero">
+      <h2>Travel Beyond Limits.</h2>
+      <h3>
+        Start your travel at an affordable price with Travelly <br />
+        Contact us now bellow
+      </h3>
+      <a href="#contact"><button>Book now</button></a>
+    </section>
+    <!-- Location section -->
+    <section id="locations">
+      <header class="locations-header">
+        <h2>The Perfect Travelling Experience.</h2>
+        <h3>
+          We cover everything from picking the perfect hotel, <br />
+          flight and traveling destinations.
+        </h3>
+        <!-- Clouds for animation -->
+        <img src="/img/cloud.png" class="moving-cloud-1 cloud" />
+        <img src="/img/cloud.png" class="moving-cloud-2 cloud" />
+      </header>
+    </section>
+    <!-- Benefits section -->
+    <section id="benefits">
+      <header class="benefits-header">
+        <h2>The Perfect Travel</h2>
+        <h3>
+          We cover everything from picking the perfect hotel, <br />
+          flight and traveling destinations.
+        </h3>
+      </header>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">
+            <img src="/icons/route-solid.svg" alt="" />
+          </div>
+          <h4>Travel</h4>
+          <p>
+            Flight included in every purchased trip. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Maxime, aperiam!
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="/icons/bed-solid.svg" alt="" />
+          </div>
+          <h4>Hotel</h4>
+          <p>
+            Flight included in every purchased trip. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Maxime, aperiam!
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="/icons/plane-departure-solid.svg" alt="" />
+          </div>
+          <h4>Fly</h4>
+          <p>
+            Flight included in every purchased trip. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Maxime, aperiam!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="form-wrapper">
+        <header class="form-header">
+          <h2>Contact Us</h2>
+        </header>
+        <form action="https://formspree.io/f/xgebwgak" method="POST">
+          <div class="name-form">
+            <label for="name">Name:</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="email-form">
+            <label for="email">Email:</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-wrapper">
+        <h5><a href="#">Travelly &copy;</a></h5>
+        <ul>
+          <li>
+            <a href="#"><img src="/icons/twitter.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/icons/youtube.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/icons/instagram.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
